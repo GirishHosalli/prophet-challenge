@@ -5,8 +5,8 @@ This section was to addres the question "Did the Google search traffic increase 
 
 Read the search data into a DataFrame, and then slice the data to just the month of May 2020. 
 File was read from "https://static.bc-edx.com/ai/ail-v-1-0/m8/lms/datasets/google_hourly_search_trends.csv"   
-May 2020 Search Trends plot - 
-![alt text](image.png)
+May 2020 Search Trends plot -  
+![alt text](image.png)  
 
 Calculate the total search traffic for the month, and then compare the value to the monthly median across all months.  
 It was found that in the monthe of May Google search traffic increase by about 8.55%.  
@@ -37,17 +37,17 @@ Create a new column in the DataFrame named “Lagged Search Trends” that offse
 
     - “Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis
 
-    - Review the time series correlation, and then answer the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
+    - Review the time series correlation, and then answer the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?  
 
-![alt text](image-6.png)
+![alt text](image-6.png)  
 There does not appear to be a common trend between both of above graphs. from middle of May onwards stock close seem to be trending higher where as search trend is mostly neutral.  
 
 Stock Volotality Plot:  
 ![alt text](image-7.png)  
 
 
-Correlation table of Stock Volatility, Lagged Search Trends, and Hourly Stock Return
-![alt text](image-8.png)
+Correlation table of Stock Volatility, Lagged Search Trends, and Hourly Stock Return  
+![alt text](image-8.png)  
 Correlation value between 'Lagged Search Trends' and the 'Stock Volatility' is -0.148938. This indicates a weak relationship between 'Lagged Search Trends' and the 'Stock Volatility'.
 
 Correlation value between 'Lagged Search Trends' and the 'Hourly Stock Return' is 0.017929
@@ -63,19 +63,19 @@ Following steps were performed -
 3. Plot the individual time series components of the model to answer the following questions:
     What time of day exhibits the greatest popularity?
     Which day of the week gets the most search traffic?
-    What's the lowest point for search traffic in the calendar year?
+    What's the lowest point for search traffic in the calendar year?  
 
 
-![alt text](image-9.png)
+![alt text](image-9.png)  
 Forecast values (blue line) appear to remain relatively stable and consistent with the past trend. There is no significant upward or downward trend.
 Light blue shaded lines are narrow and indicate reasonably high confidence in prediction.
 Based on the plot near-term forecast suggests a stable trend without any significatnt increase or decrease.  
 
 Plot the data to visualize the yhat, yhat_lower, and yhat_upper columns over the last 2000 hours:  
-![alt text](image-10.png)
+![alt text](image-10.png)  
 
 Plot components:  
-![alt text](image-11.png)
+![alt text](image-11.png)  
 
 Question: What time of day exhibits the greatest popularity?
 Answer: Around midnight (between 11pm-12am) it shows to be having a greatest popularity.
